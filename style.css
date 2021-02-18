@@ -1,0 +1,67 @@
+body{
+    box-sizing: border-box;
+}
+.container{
+    margin-top: 50px;
+}
+.wrapper{
+    border: solid 1px lightgray;
+    border-radius: 5px;
+    height: 550px;
+    width: 45%;
+    margin: auto;
+    
+}
+#showcase{
+    height: 400px;
+    position: relative;
+}
+
+#showcase #image-bg{
+    background: #333 url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxk6WjjSNPcIe93kvx3zfFanIsgJ14RM8xYg&usqp=CAU');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.4;
+    filter: blur(3px);
+}
+
+.button{
+    text-decoration: none;
+    color: #333;
+    border: solid 2px #333;
+    padding: 10px 20px;
+    border-radius: 4px;
+    position: absolute;
+    top: 45%;
+    left: 37%;
+}
+
+#info{
+    margin: 10px;
+}
+#info p{
+    color: gray;
+}
+
+#social{
+    border-top: solid 1px lightgray;
+    text-align: center;
+    color: gray;
+}
+.left{
+    float: left;
+    width: 40%;
+    margin-top: 10px;
+}
+
+.right{
+    float: right;
+    width: 45%;
+    margin-top: 15px;
+}
+
